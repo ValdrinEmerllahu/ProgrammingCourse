@@ -1,0 +1,561 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    font-size: 10px;
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+#header {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    margin: 25px auto;
+    width: 1000px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    overflow: hidden;
+}
+
+.logo a {
+    display: block;
+    height: 60px;
+    margin-bottom: -10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 230px;
+}
+
+a {
+    outline: none;
+}
+
+.logo a img{
+    height: 50px;
+}
+
+.navigation-menu {
+    float: right;
+    overflow: hidden;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.navigation-menu ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.navigation-menu ul li {
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.navigation-menu ul li:hover {
+    background-color: #fc6e20;
+    border-radius: 5px;
+}
+
+
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navigation-menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.pageLayout {
+    min-height: 350px;
+}
+
+.wrapper {
+    margin: 25px auto;
+    width: 1000px;
+    position: relative;
+}
+
+.pageLayout.hasSidebar>.content {
+    margin-right: 320px;
+}
+
+.block {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+
+h1 {
+    font-size: 2.4em;
+    color: #000;
+}
+
+.dynamicPageInfo p {
+    color: #b4bbc2;
+    font-size: 1.4em;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #000;
+}
+
+.pageLayout .sidebar {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.takeCourse {
+    overflow: hidden;
+}
+
+.takeCourse p {
+    font-weight: 500;
+    font-size: 1.75em;
+    color: #393635;
+    margin: 0;
+    text-align: center;
+}
+
+.takeCourse a {
+    display: block;
+    margin-top: 15px;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.takeCourse a:hover {
+    opacity: .8;
+}
+
+.courseItem a {
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+}
+
+a {
+    outline: none;
+}
+
+.courseIcon {
+    float: left;
+    overflow: hidden;
+    width: 170px;
+    border-radius: 45px;
+    display: block;
+    margin-right: 35px;
+}
+
+.courseDescription {
+    overflow: hidden;
+}
+
+.courseDescription div, .courseDescription h1 {
+    font-weight: 500;
+    font-size: 2em;
+    color: #000;
+}
+
+.courseDescription p {
+    font-size: 1.35em;
+    line-height: 1.7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.courseStores {
+    display: flex;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-right: 15px;
+    padding-right: 191px;
+}
+
+.courseStores button {
+    max-height: 49px;
+    min-width: 120px;
+    /* margin-left: 145px; */
+    /* background-color: #fc6e20; */
+    border: medium none;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.4em;
+    cursor: pointer;
+    border: none;
+}
+.price{
+    text-align: left;
+    padding-left: 0;
+    font-size: 25px;
+    color: red;
+    font-weight: normal;
+}
+#CartNav{
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #fff;
+    padding: 8.5px 10px;
+}
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0rem 0.9rem;
+    border-radius: 3rem;
+}
+.text{
+    color: #ffc107!important;
+}
+.light{
+    background-color: #f8f9fa!important;
+}
+.courseItem a {
+overflow: hidden;
+display: block;
+text-decoration: none;
+}
+
+a {
+outline: none;
+}
+
+.courseIcon {
+float: left;
+overflow: hidden;
+width: 170px;
+border-radius: 45px;
+display: block;
+margin-right: 35px;
+}
+
+.courseDescription {
+overflow: hidden;
+}
+
+.courseDescription div, .courseDescription h1 {
+font-weight: 500;
+font-size: 2em;
+color: #000;
+}
+
+.courseDescription p {
+font-size: 1.35em;
+line-height: 1.7;
+margin-top: 10px;
+margin-bottom: 10px;
+color: #000;
+}
+
+
+.courseStores button  {
+
+max-height: 49px;
+min-width: 120px;
+border: medium none;
+border-radius: 20px;
+color: #fff;
+display: inline-block;
+padding: 10px;
+text-decoration: none;
+text-align: center;
+font-size: 1.4em;
+cursor: pointer;
+border: none;
+}
+
+.saveBttn{
+margin-left:0;
+background-color: #fc6e20;
+}
+
+.removeBttn{
+/* margin-left: 12px; */
+background-color: #ea1a2e;
+}
+
+.dynamicPageInfo form{
+margin-bottom: 20px;
+}
+
+.takeCourse h6{
+font-size: 1rem;
+margin-bottom: .5rem;
+}
+
+hr{
+margin-top: 1rem;
+margin-bottom: 1rem;
+border: 0;
+border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.takeCourse h2{
+padding: 4.4% 2%;
+}
+
+.divflex{
+display:flex;
+justify-content:space-between;
+}
+#CartNav{
+background-color: #fc6e20;
+border-radius: 5px;
+}
+.block h5{
+font-size: 1rem;
+color: red;
+}
+.checkBttn{
+text-align: center;
+}
+
+
+.checkBttn button{
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    width: 100px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #fc6e20;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 25px;
+    color: red;
+    /* text-align: center; */
+    padding-top: 3px;
+    /* padding-left: 15px; */
+}
+
+.courseItem a {
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    padding: 20px 20px 0;
+}
+
+.courseGooglePlay, .courseAppStore {
+    background: url(../Images/badges.png) no-repeat;
+    width: 250px;
+    height: 90px;
+    background-position: 0 -5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.courseGooglePlay img{
+    height: 90px;
+    width: 250px;
+}
+
+.courseAppStore img{
+    height: 90px;
+    width: 250px;
+}
+
+.dynamicPageInfo h1{
+    color: #fc6e20;
+}
+
+.courseLoactions{
+    height: 225px;
+}
+
+.courseGooglePlay{
+    padding-top: 5px;
+}
+
+.courseAppStore{
+    padding-top: 35px;
+}
+
+
+#footer {
+    width: 100%;
+    background-color: #eaedf1;
+    overflow: hidden;
+}
+
+.footerTitle {
+    width: 100%;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.footerTitle p {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 20px;
+}
+
+#footer .footerContent {
+    margin-bottom: 0;
+}
+
+.socialCounts {
+    float: left;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.footerSocial {
+    overflow: hidden;
+    background-color: #fff;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 320px;
+}
+
+.fab{
+    font-size: 37px;
+    padding-top: 20px;
+}
+
+.footerTwitter {
+    background-color: #fc6e20;
+    color: white;
+}
+
+.footerFacebook, .footerGooglePlus, .footerTwitter {
+    float: left;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+}
+
+.footerSocial span {
+    color: #b4bbc2;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 2.1em;
+    margin-top: 25px;
+    text-align: center;
+    width: 200px;
+}
+
+.footerFacebook {
+    background-color: #fc6e20;
+    color: white;
+}
+
+#footer .about {
+    float: right;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+#footer .about div {
+    margin-bottom: 15px;
+}
+
+.logoFooter {
+    background-position: -12px -8px;
+    width: 200px;
+    height: 55px;
+}
+
+.logoFooter img{
+    width: 200px;
+}
+
+#footer .about p {
+    font-weight: bold;
+    color: #383737;
+    font-size: 1.35em;
+}
+
+#footer .about address {
+    font-weight: 500;
+    color: #b4bbc2;
+    font-size: 1.35em;
+}
+
+#footer .about button {
+    color: #fff;
+    display: block;
+    border: none;
+    text-decoration: none;
+    width: 80px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #fc6e20;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button, input, textarea {
+    font-family: sans-serif;
+}
+
+.footerMenu {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 115px;
+}
+
+
+.footerMenu ul {
+    list-style: none;
+}
+
+.footerMenu ul li {
+    margin-top: 10px;
+}
+
+.footerMenu ul li a:hover {
+    color: #92989e;
+}
+
+.footerMenu ul li a {
+    font-weight: bold;
+    color: #b4bbc2;
+    font-size: 1.35em;
+    text-decoration: none;
+}
+
+#footer .copyright {
+    text-align: center;
+    color: #555;
+    font-size: 12px;
+    padding: 20px 0;
+}
